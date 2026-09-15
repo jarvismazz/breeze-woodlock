@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Breeze Woodlock · Master Stylist · Salon Lofts Traders Point</title>
+  <meta name="description" content="Breeze Woodlock is a third-generation master stylist at Salon Lofts Traders Point, Loft 4. Natural gray coverage, customized cuts and color near Zionsville and Indianapolis." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --ink: #2c2622;
+      --muted: #6b625b;
+      --paper: #f7f1ea;
+      --card: #fffdf9;
+      --sage: #6d7f6d;
+      --sage-dark: #556555;
+      --blush: #c9a39a;
+      --line: #e4d8cd;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: "Source Sans 3", system-ui, sans-serif;
+      color: var(--ink);
+      background: var(--paper);
+      line-height: 1.55;
+    }
+    a { color: var(--sage-dark); }
+    img { max-width: 100%; display: block; }
+    header {
+      position: sticky; top: 0; z-index: 10;
+      display: flex; align-items: center; justify-content: space-between;
+      gap: 1rem; padding: .85rem 6vw;
+      background: rgba(247,241,234,.92);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--line);
+    }
+    .brand { font-family: "Cormorant Garamond", serif; font-size: 1.45rem; letter-spacing: .04em; text-decoration: none; color: var(--ink); }
+    nav { display: flex; gap: 1.1rem; font-size: .92rem; }
+    nav a { text-decoration: none; color: var(--muted); }
+    .btn {
+      display: inline-block; background: var(--sage); color: #fff !important;
+      text-decoration: none; padding: .7rem 1.15rem; border-radius: 999px;
+      font-weight: 600; letter-spacing: .02em;
+    }
+    .btn.ghost { background: transparent; color: var(--ink) !important; border: 1px solid var(--ink); }
+    .hero {
+      display: grid; grid-template-columns: 1.1fr .9fr; min-height: 78vh;
+    }
+    .hero-copy { padding: 8vh 6vw; display: flex; flex-direction: column; justify-content: center; }
+    .eyebrow { text-transform: uppercase; letter-spacing: .18em; font-size: .72rem; color: var(--sage-dark); }
+    h1, h2 { font-family: "Cormorant Garamond", serif; font-weight: 500; line-height: 1.1; margin: .25rem 0 .7rem; }
+    h1 { font-size: clamp(2.4rem, 5vw, 4.2rem); }
+    h2 { font-size: clamp(1.8rem, 3vw, 2.6rem); }
+    .hero img { width: 100%; height: 78vh; object-fit: cover; }
+    section { padding: 4.5rem 6vw; }
+    .split { display: grid; grid-template-columns: .8fr 1.2fr; gap: 2.5rem; align-items: center; }
+    .portrait { width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 18px; }
+    .gallery { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+    .gallery img { width: 100%; height: 420px; object-fit: cover; border-radius: 14px; }
+    .services { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: .85rem; }
+    .card {
+      background: var(--card); border: 1px solid var(--line); border-radius: 14px;
+      padding: 1rem 1.1rem;
+    }
+    .card strong { display: block; }
+    .price { color: var(--sage-dark); font-weight: 600; }
+    footer { padding: 2rem 6vw 3rem; color: var(--muted); font-size: .9rem; border-top: 1px solid var(--line); }
+    @media (max-width: 860px) {
+      .hero, .split, .gallery { grid-template-columns: 1fr; }
+      .hero img { height: 46vh; }
+      nav { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a class="brand" href="#top">Breeze Woodlock</a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#services">Services</a>
+      <a href="#visit">Visit</a>
+    </nav>
+    <a class="btn" href="https://salonlofts.com/breeze_woodlock/schedule">Book online</a>
+  </header>
+
+  <main id="top">
+    <section class="hero" style="padding:0">
+      <div class="hero-copy">
+        <p class="eyebrow">Master stylist · Educator</p>
+        <h1>Welcome to my chair.</h1>
+        <p>Third-generation stylist with over 30 years of experience. Natural-looking gray coverage and customized styles designed to enhance your features — at Salon Lofts Traders Point, Loft 4, just south of Zionsville.</p>
+        <p>
+          <a class="btn" href="https://salonlofts.com/breeze_woodlock/schedule">Book with Breeze</a>
+           
+          <a class="btn ghost" href="tel:3172859781">Call 317-285-9781</a>
+        </p>
+      </div>
+      <img src="images/hero.jpg" alt="Calm, light-filled salon atmosphere" />
+    </section>
+
+    <section id="about">
+      <div class="split">
+        <img class="portrait" src="images/portrait.jpg" alt="Breeze Woodlock, master stylist" />
+        <div>
+          <p class="eyebrow">About Breeze</p>
+          <h2>A lifelong student of the beauty industry.</h2>
+          <p>I am a third-generation stylist with over 30 years of experience. Through continued education and a deep passion for evolving techniques, I stay at the forefront of modern hair artistry.</p>
+          <p>Every client receives personalized, attentive care. Each appointment begins with a thoughtful consultation — so you leave feeling confident, refreshed, and truly seen.</p>
+          <p>Products I love working with include <strong>K18 Biomimetic Hairscience</strong>, <strong>Shibui Hair Care</strong>, and <strong>Redken Shades EQ</strong>.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="work">
+      <p class="eyebrow">Selected work</p>
+      <h2>Color, cut, and movement from her chair.</h2>
+      <p>Photos from Breeze’s public Salon Lofts / Facebook gallery. We’ll add more of her latest looks as she shares them.</p>
+      <div class="gallery">
+        <img src="images/work2.jpg" alt="Long copper-brown waves with salon finish" />
+        <img src="images/work3.jpg" alt="Long blonde waves with dimensional color" />
+      </div>
+    </section>
+
+    <section id="services">
+      <p class="eyebrow">Menu</p>
+      <h2>Services & starting prices</h2>
+      <p>Prices are from her current Salon Lofts booking page and may vary after consultation.</p>
+      <div class="services">
+        <div class="card"><strong>Women’s Cut & Style</strong><span class="price">$64 and up</span></div>
+        <div class="card"><strong>Men’s Cut & Style</strong><span class="price">$46 and up</span></div>
+        <div class="card"><strong>Children’s Cut & Style</strong><span class="price">$38 and up</span></div>
+        <div class="card"><strong>Shampoo & Style</strong><span class="price">$40 and up</span></div>
+        <div class="card"><strong>Root touch up, cut & style</strong><span class="price">$146 and up</span></div>
+        <div class="card"><strong>Gray blending</strong><span class="price">$105 and up</span></div>
+        <div class="card"><strong>Color touch up + face-framing highlights</strong><span class="price">$130 and up</span></div>
+        <div class="card"><strong>Partial highlights + cut + style</strong><span class="price">$180 and up</span></div>
+        <div class="card"><strong>Full highlights + cut + style</strong><span class="price">$210 and up</span></div>
+        <div class="card"><strong>Balayage</strong><span class="price">$160</span></div>
+        <div class="card"><strong>Glazing / toner</strong><span class="price">$30</span></div>
+        <div class="card"><strong>Perm</strong><span class="price">$95 and up</span></div>
+        <div class="card"><strong>Olaplex and K18 intensive conditioners</strong><span class="price">$15 and up</span></div>
+        <div class="card"><strong>Beard trim</strong><span class="price">$30 and up</span></div>
+        <div class="card"><strong>Eyebrow shaping</strong><span class="price">$20</span></div>
+        <div class="card"><strong>Consultation</strong><span class="price">Complimentary</span></div>
+      </div>
+    </section>
+
+    <section id="visit">
+      <p class="eyebrow">Visit</p>
+      <h2>Salon Lofts Traders Point · Loft 4</h2>
+      <p>5650 W 86th Street, Suite 120<br />Indianapolis, IN 46278</p>
+      <p>
+        <a class="btn" href="https://salonlofts.com/breeze_woodlock/schedule">Book on Salon Lofts</a>
+         
+        <a class="btn ghost" href="https://www.facebook.com/Studio3Salon/">Facebook gallery</a>
+      </p>
+      <p>
+        <a href="mailto:breeze.woodlock@salonlofts.com">breeze.woodlock@salonlofts.com</a><br />
+        <a href="tel:3172859781">317-285-9781</a>
+      </p>
+    </section>
+  </main>
+  <footer>
+    Independent suite at Salon Lofts Traders Point. Booking still happens through Breeze’s official Salon Lofts page.
+  </footer>
+</body>
+</html>
